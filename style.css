@@ -1,0 +1,88 @@
+/*hacer responsive a la pagina*/
+  /* header{
+    display: flex;
+  } */
+header,section,footer{
+  width: 960px;
+}
+header{
+  background-color: darkmagenta;
+}
+body{
+  background-color: rgb(123, 123, 172);
+}
+/* body section{
+  display: flex;
+  width: 960px;
+} */
+#titulo{
+  display: flex;
+  background-color: darkgoldenrod;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+#SFC{
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 10%; */
+  border: 10%;
+  width: 960px;
+  height: auto;
+  background-color: aqua;
+}
+#SFC section{
+  display: flex;
+  align-content: space-between;
+}
+#S1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10%;
+  width: 10%;
+  height: 10%;
+  background-color: red;
+}
+#S1 p{
+  display: flex;
+  justify-content: center;
+}
+#S2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin:10%;
+  width: 10%;
+  height: 10%;
+  background-color: green;
+}
+#S3{
+  display: flex;
+  align-items: center;
+  /* align-content: center; */
+  justify-content: center;
+  margin:10%;
+  width: 10%;
+  height: 10%;
+  background-color: blueviolet;
+}
+footer{
+  display: flex;
+  background-color: darkgreen;
+  /* width: 80%; */
+  height: auto;
+}
+  /*seccion donde se trabaja lo responsive*/
+@media screen and (min-width:600px) and (max-width: 1023px)
+{header,#titulo,#SFC,footer{width: auto;}
+  }
+  
+  
+@media screen and (max-width: 599px) {
+
+}
